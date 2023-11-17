@@ -20,6 +20,8 @@ function Navbar() {
           <img src={Magnify} alt="Logo" />
           <img src={Cart} alt="Logo" />
         </div>
+        <p>Sign In</p>
+        <button>Create Account</button>
       </div>
     </>
   );
