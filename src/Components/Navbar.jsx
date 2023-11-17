@@ -1,9 +1,26 @@
-
+import "../Styles/Navbar.scss";
+import Logo from "../assets/images/Group.png";
+import Magnify from "../assets/images/Magnifier.png";
+import Cart from "../assets/images/cart.png";
 
 function Navbar() {
   return (
     <>
-      <div>hello</div>
+      <div>
+        <div>
+          <img src={Logo} alt="Logo" />
+          <span>Meals</span>
+        </div>
+        <div className="nav-pages">
+          <a href="">Home</a>
+          <a href="">Menu</a>
+          <a href="">Meal Plans</a>
+        </div>
+        <div>
+          <img src={Magnify} alt="Logo" />
+          <img src={Cart} alt="Logo" />
+        </div>
+      </div>
     </>
   );
 }
