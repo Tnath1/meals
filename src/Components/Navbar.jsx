@@ -6,8 +6,8 @@ import Cart from "../assets/images/cart.png";
 function Navbar() {
   return (
     <>
-      <div>
-        <div>
+      <div className="navContainer">
+        <div className="navFlex1">
           <img src={Logo} alt="Logo" />
           <span>Meals</span>
         </div>
@@ -16,6 +16,7 @@ function Navbar() {
           <a href="">Menu</a>
           <a href="">Meal Plans</a>
         </div>
+
         <div>
           <img src={Magnify} alt="Logo" />
           <img src={Cart} alt="Logo" />
