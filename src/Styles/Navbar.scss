@@ -26,6 +26,7 @@ $white: #ffffff;
     align-items: flex-start;
     gap: 0.51931rem;
     margin-right: 5.5rem;
+    cursor: pointer;
 
     span {
       color: #1a1a1a;
@@ -49,6 +50,7 @@ $white: #ffffff;
     background: $colorRed;
     color: $white;
     border: 2px solid transparent;
+    cursor: pointer;
   }
 }
 
@@ -68,10 +70,7 @@ $white: #ffffff;
     margin-right: 1.63rem;
     margin-left: 9.75rem;
     margin-top: 13rem;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
+
     h3 {
       color: $colorBlack;
 
@@ -105,6 +104,18 @@ $white: #ffffff;
       color: $white;
       border: 2px solid transparent;
       margin-top: 2.31rem;
+      cursor: pointer;
     }
   }
+}
+.message {
+  width: 5rem;
+  height: 5rem;
+  flex-shrink: 0;
+  padding: 1.2rem;
+  background-color: $colorRed;
+  margin-left: 88rem;
+  margin-bottom: 12rem;
+  border-radius: 50%;
+  cursor: pointer;
 }

@@ -1,5 +1,6 @@
 import "../Styles/Navbar.scss";
 import HomeImg from "../assets/images/homeimg.png";
+import Message from "../assets/images/chat-icon.png";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
           <img src={HomeImg} alt="plate of jellof rice and chicken" />
         </div>
       </div>
+      <img className="message" src={Message} alt="plate of jellof rice and chicken" />
     </>
   );
 }
