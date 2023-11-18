@@ -37,4 +37,74 @@ $white: #ffffff;
       letter-spacing: 0.00556rem;
     }
   }
+
+  .btn1 {
+    display: flex;
+    height: 3.375rem;
+    padding: 0rem 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.875rem;
+    background: $colorRed;
+    color: $white;
+    border: 2px solid transparent;
+  }
+}
+
+//styles for Home Component
+
+.homecontainer {
+  display: flex;
+
+  div img {
+    width: 36.69325rem;
+    height: 36.69325rem;
+    flex-shrink: 0;
+    margin-top: 6.19rem;
+    margin-right: 6.19rem;
+  }
+  .writing {
+    margin-right: 1.63rem;
+    margin-left: 9.75rem;
+    margin-top: 13rem;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    h3 {
+      color: $colorBlack;
+
+      font-family: Lato;
+      font-size: 4rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 112%; /* 4.48rem */
+    }
+    p {
+      color: #13254a;
+      font-family: Lato;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 145%; /* 1.63125rem */
+      max-width: 24rem;
+      margin-top: 1.5rem;
+    }
+    .btn2 {
+      display: flex;
+      width: 20.3125rem;
+      height: 3.375rem;
+      padding: 0rem 1rem;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      flex-shrink: 0;
+      border-radius: 1.875rem;
+      background: $colorRed;
+      color: $white;
+      border: 2px solid transparent;
+      margin-top: 2.31rem;
+    }
+  }
 }

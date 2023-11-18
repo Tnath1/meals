@@ -22,7 +22,7 @@ function Navbar() {
           <img src={Cart} alt="Logo" />
         </div>
         <p>Sign In</p>
-        <button>Create Account</button>
+        <button className="btn1">Create Account</button>
       </div>
     </>
   );
